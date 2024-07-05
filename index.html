@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+
+    <title>Add Class to Paragraph</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="styles/style (1).css">
+    <script src="js.js"></script>
+</head>
+
+<body>
+    <!-- ex1-->
+    <div>
+        <p id="text" class=""> This is a sample Paragraph.</p>
+        <input type="text" id="enterclass" placeholder="Enter a class name">
+        <button onclick="buttonclass()">Add a class</button>
+    </div>
+    <!-- ex2-->
+    <div>
+        <button onclick="toggle1('Paragraph1')">Toggle First Paragraph</button>
+        <button onclick="toggle1('Paragraph2')">Toggle Second Paragraph</button>
+        <button onclick="toggle1('Paragraph3')">Toggle Third Paragraph</button>
+        <div id="Paragraph1" class="Paragraph1 hidden">
+            <p>This is the first Paragraph</p>
+        </div>
+        <div id="Paragraph2" class="Paragraph2 hidden">
+            <p>This is the second Paragraph</p>
+        </div>
+        <div id="Paragraph3" class="Paragraph3 hidden">
+            <p>This is the third Paragraph</p>
+        </div>
+    </div>
+    <!-- ex3-->
+    <div>
+        <button id="buttonclick" onclick="newtest()">Click me :/</button>
+    </div>
+    
+</body>
+
+</html>

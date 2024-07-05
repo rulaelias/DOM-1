@@ -1,0 +1,19 @@
+.highlight {
+    background-color: rgb(0, 255, 136);
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.hidden {
+    display: none;
+}
+
+.visible {
+    display: block;
+}
